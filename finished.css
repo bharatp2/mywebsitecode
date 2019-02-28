@@ -9,33 +9,40 @@
     margin-left: 30px;
     text-align: center;
 }
-h2 {
+.h2Style {
     color: red; 
+    font-size: 25px;
     margin-left: 30px;
 }
-listindent5 {
+.listindent5 {
     margin-left: 20%;
 }
 
-.style1scrollbar {
-    /* width */
-    ::-webkit-scrollbar {
-    width: 10px;
-    }
-    /* Track */
-    ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-    }
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-    background: #888; 
-    }
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-    }
+.myscrollbox {font-size: 15px; height: 100px; overflow: auto;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.myfooter {
+    height: 10px;
+    background-color: skyblue;
+}
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
 
 * {
@@ -50,8 +57,8 @@ listindent5 {
   }
   
   /* Colours for each box */
-  .box1 { background:#eccc68; font-size: 25px;}
-  .box2 { background:#ff6348; height: 200px; overflow: scroll;}
+  .box1 { background:#eccc68; font-size: 15px;}
+  .box2 { background:#ff6348;}
   .box3 { background:coral;}
   .box4 { background:#ff4757;}
   .box5 { background:#f1c40f;}
@@ -65,6 +72,6 @@ listindent5 {
     /* display:flex changes the flow of our page * and allows us to use flex properties */
     display: flex;
     /* box's inside the container span the whole screen height; */
-    min-height: 100vh;
+    min-height: 50vh;
     flex-direction: column;
 }
