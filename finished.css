@@ -1,0 +1,70 @@
+.fontCourier {
+    font-family: 'courier';
+}
+.fontAriel {
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+.h1Style {
+    color: blue; 
+    margin-left: 30px;
+    text-align: center;
+}
+h2 {
+    color: red; 
+    margin-left: 30px;
+}
+listindent5 {
+    margin-left: 20%;
+}
+
+.style1scrollbar {
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+.box {
+    color:white;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left;
+    padding:15px;
+  }
+  
+  /* Colours for each box */
+  .box1 { background:#eccc68; font-size: 25px;}
+  .box2 { background:#ff6348; height: 200px; overflow: scroll;}
+  .box3 { background:coral;}
+  .box4 { background:#ff4757;}
+  .box5 { background:#f1c40f;}
+  .box6 { background:#e67e22;}
+  .box7 { background:#2ed573;}
+  .box8 { background:#1e90ff;}
+  .box9 { background:#c56cf0;}
+  .box10 { background:#18dcff;}
+  
+.container {
+    /* display:flex changes the flow of our page * and allows us to use flex properties */
+    display: flex;
+    /* box's inside the container span the whole screen height; */
+    min-height: 100vh;
+    flex-direction: column;
+}
