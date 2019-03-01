@@ -7,29 +7,56 @@
     </head>
 
     <!--body style="background-colour: coral; background-image: url(CodeNationPic_1.jpeg); background-repeat: no-repeat; background-position: 90% 90%"-->
-
     <body style="background-color: lightblue">
+
+        <script src="myjs.js"></script>
+
         <style>
-                /* width */
-                ::-webkit-scrollbar {
-                width: 10px;
-                }
-                
-                /* Track */
-                ::-webkit-scrollbar-track {
-                background: #f1f1f1; 
-                }
-                
-                /* Handle */
-                ::-webkit-scrollbar-thumb {
-                background: #888; 
-                }
-                
-                /* Handle on hover */
-                ::-webkit-scrollbar-thumb:hover {
-                background: #555; 
-                }
-            </style>
+            /* width */
+            ::-webkit-scrollbar {
+            width: 10px;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+            }
+            
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+            background: #888; 
+            }
+            
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+            }
+        </style>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="todo.html">To Do</a>
+            <a href="contact.html">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Unit Answers 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="unit1_out2.html">Review Unit 1 - Outcome 2</a>
+                <a href="unit1_out3.html">Review Unit 1 - Outcome 3</a>
+                <a href="unit2_out1.html">Review Unit 2 - Outcome 1</a>
+                <a href="unit2_out3.html">Review Unit 2 - Outcome 3</a>
+                </div>
+            </div> 
+            <a href="https://trello.com/b/AXLnShwB/my-jouney-to-it-consultant">Link To Trello</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+
+    <div>
+        <img src="CodeNationPic_2.jpeg" style = "position: absolute; left:80%; top:5%"; height="90">
+    </div>
+
     <!--.container>.box.box$*10.box{$}*10-->
     <div class="container">
         <div class="box box1">
@@ -52,135 +79,142 @@
             </div>
         </div>
 
-        <div class="box box3">3</div>
-        <div class="box box4">4</div>
-        <div class="box box5">5</div>
-    </div>
-
-    <div>
-        <img src="CodeNationPic_2.jpeg" style = "position: absolute; left:2%; top:2%"; height="140">
-    </div>
-        <h2> 1.2) To complete digital projects successfully, I addressed the following: -</h2>
-        <p1>
-            <ol>
-                <li>What do you need to make projects successful?</li>
+        <div class="box box3">
+            <div> <h2 class="h2Style"> 1.2) To complete digital projects successfully, I addressed the following: -</h2></div>
+            <div class="myscrollbox">
+                <p>
                     <ol>
-                        <li>Good project definition, scope and planning, financial and contingency backing, oversight and commitment by project initiators.</li>
-                        <li>Correct number of qualified and experienced, dedicated and reliable staff</li>
-                        <li>Open communication and correct tasks breakdown with assigned staff and work allocation</li>
-                        <li>Adequate Risk Management</li>
-                        <li>Keep track of actions, issues and risks</li>
-                        <li>Update the project schedule and review the critical path.</li>
+                        <li>What do you need to make projects successful?</li>
+                            <ol>
+                                <li>Good project definition, scope and planning, financial and contingency backing, oversight and commitment by project initiators.</li>
+                                <li>Correct number of qualified and experienced, dedicated and reliable staff</li>
+                                <li>Open communication and correct tasks breakdown with assigned staff and work allocation</li>
+                                <li>Adequate Risk Management</li>
+                                <li>Keep track of actions, issues and risks</li>
+                                <li>Update the project schedule and review the critical path.</li>
+                            </ol>
+                        <li>What tools?</li>
+                            <ol>
+                                <li>Use of Project management methodologies, e.g. PRINCE 2</li>
+                                <li>Use of Software Development Life Cycle, Waterfall and Agile methodologies.</li>
+                                <li>Use of MS Project and Trello, to plan and update project plans</li>
+                                <li>Use of source control tools like PVCS, Git and GitHub</li>
+                            </ol>
+                        <li>What Skills?</li>
+                            <ol>
+                                <li>Project planning skills</li>
+                                <li>Systems and requirements analysis skills.</li>
+                                <li>Technically experienced and certified staff</li>
+                                <li>Soft skills within the staff. e.g. Excellent oral and written communication.</li>
+                                <li>Good team players.</li>
+                                <li>Time management.</li>
+                            </ol>
                     </ol>
-                <li>What tools?</li>
-                    <ol>
-                        <li>Use of Project management methodologies, e.g. PRINCE 2</li>
-                        <li>Use of Software Development Life Cycle, Waterfall and Agile methodologies.</li>
-                        <li>Use of MS Project and Trello, to plan and update project plans</li>
-                        <li>Use of source control tools like PVCS, Git and GitHub</li>
-                    </ol>
-                <li>What Skills?</li>
-                    <ol>
-                        <li>Project planning skills</li>
-                        <li>Systems and requirements analysis skills.</li>
-                        <li>Technically experienced and certified staff</li>
-                        <li>Soft skills within the staff. e.g. Excellent oral and written communication.</li>
-                        <li>Good team players.</li>
-                        <li>Time management.</li>
-                    </ol>
-            </ol>
-        </p1>
-    <div>
-        <h2> 1.3) Plan and carry out tasks using I.T. – e.g. making your website.</h2>
-        <p1>
-            <ol>
-                <li> How will you plan it?</li>
-                    <ol>
-                        <li>Formulate a project plan to be continually updated</li>
-                        <li>Perform project tasks like requirements analysis, design, coding, testing and implementation</li>
-                        <li>Use methodolies and tools for the this software development project</li>
-                    </ol>
-                <li>Example of Troll board for Project Planning, Click link <a href="https://trello.com/b/AXLnShwB/my-jouney-to-it-consultant">here</a> </li>
-            </ol>
-        </p1>
-    
-    </div>
-    
-    <div>
-        <h2> 1.4) Risks that might impact digital projects</h2>
-        <p1>
-             <ol>
-                <li>What causes digital projects to fail?</li>
-                    <ol>
-                        <li>Poor Project Definition.</li>
-                        <li>Poor Project Planning, Oversight and Control.</li>
-                        <li>Poor Project Communication and Co-ordination.</li>
-                        <li>Adhoc change requirements.</li>
-                        <li>Poor impact analysis on project tasks</li>
-                        <li>Absence of and/or poor contigency planning.</li>
-                    </ol>
-                <li>Why?</li>
-                    <ol>
-                        <li>Due to poor project definition, planning, vision, contingency and indadequate and unsuiatble resources</li>
-                    </ol>
-         </p1>
-    </div>
-
-    <div>
-        <h2> 1.5) Describe how you would go about selecting and using IT systems and software</h2>
-        <p1>
-            <ol>
-                </li>How do you select the right kind of technology for the job? </li>
-                <ol>
-                    <li>Ensure that sanctioned project finances are approved, ready and waiting.</li>
-                    <li>Understand the project requirements</li>
-                    <li>Undertake the process to evaluate I.T. Systems and Software that may be a potential solution to project delivery.</li>
-                    <li>Perform cost/benefit anaysis and finally select one option.</li>
-                    <li>Factor in the procurement of qualified, certified and experienced staff and their availablity, including any training needs.</li>
-                </ol>
-            </ol>
-        </p1>
+                </p>
+            </div>
         </div>
 
-    <div>
-        <h2> 1.6) Below described, including analysis on how my chosen technologies have helped me achieve to create my website.</h2>
-        <p1>
-            <ol>
-                <li>How has trello helped you plan?</li>
+        <div class="box box4">
+            <div> <h2 class="h2Style"> 1.3) Plan and carry out tasks using I.T. – e.g. making your website.</h2></div>
+            <div class="myscrollbox">
+                <p>
                     <ol>
-                        <li>High level view of Trello project planning showed me tasks that were "To Do", "In Progress" and "Done"</li>
-                        <li>Enabled me to create tasks and sub-tasks</li>
-                        <li>Each task was assinge a resource and due dates</li>
+                        <li> How will you plan it?</li>
+                            <ol>
+                                <li>Formulate a project plan to be continually updated</li>
+                                <li>Perform project tasks like requirements analysis, design, coding, testing and implementation</li>
+                                <li>Use methodolies and tools for the this software development project</li>
+                            </ol>
+                        <li>Example of Troll board for Project Planning, Click link <a href="https://trello.com/b/AXLnShwB/my-jouney-to-it-consultant">here</a> </li>
                     </ol>
-                <li>How can git and GitHub help with your codes version control?</li>
-                    <ol>
-                        <li>GitHub helped me define a project central repositior for all the project code to be stored.</li>
-                        <li>Git helped me save changes as the code was in the development phase and technical team could collaborate.</li>
-                        <li>Git enabled code revisions and comments to be logged and held and reverted to previous versions, if needed.</li>
-                    </ol>
-            </ol>
-        </p1>
-    </div>
+                </p>
+            </div>
+        </div>
 
-    <div>
-        <h2> 1.7) There are legal guidelines and constraints that impact digital projects</h2>
-        <p>
-            <ol>
-                <li>Legal guidelines to Digal projects are as follows:</li>
-                <ol>
-                    <li class="listindent5"> requires businesses to protect the personal data and privacy of EU citizens for transactions that occur within EU member states</li>
-                    <li class="listindent5"> must define consistent processes for how data is managed and protected, and how breaches are reported.</li>
-                    <li class="listindent5"> ensure that all of those third parties are adhering to GDPR and processing the data accordingly.</li>
-                    <li class="listindent5"> must have policies, procedures, and response structure in place to solve any breaches quickly.</li>
-                </ol>
-                <li>Constraints to Digal projects are as follows:</li>
-                <ol>
-                    <li>Need explicit consent of the person whose data is being stored in a computer system.</li>
-                    <li>Consent to store data may be withdrawn at any time.</li>
-                </ol>
-            </ol>
-        </p>
-    </div>
+        <div class="box box5">
+            <div> <h2 class="h2Style"> 1.4) Risks that might impact digital projects</h2></div>
+            <div class="myscrollbox">
+                <p>
+                    <ol>
+                        <li>What causes digital projects to fail?</li>
+                            <ol>
+                                <li>Poor Project Definition.</li>
+                                <li>Poor Project Planning, Oversight and Control.</li>
+                                <li>Poor Project Communication and Co-ordination.</li>
+                                <li>Adhoc change requirements.</li>
+                                <li>Poor impact analysis on project tasks</li>
+                                <li>Absence of and/or poor contigency planning.</li>
+                            </ol>
+                        <li>Why?</li>
+                            <ol>
+                                <li>Due to poor project definition, planning, vision, contingency and indadequate and unsuiatble resources</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+
+        <div class="box box6">
+            <div> <h2 class="h2Style"> 1.5) Describe how you would go about selecting and using IT systems and software</h2></div>
+            <div class="myscrollbox">
+                <p1>
+                        <ol>
+                            </li>How do you select the right kind of technology for the job? </li>
+                            <ol>
+                                <li>Ensure that sanctioned project finances are approved, ready and waiting.</li>
+                                <li>Understand the project requirements</li>
+                                <li>Undertake the process to evaluate I.T. Systems and Software that may be a potential solution to project delivery.</li>
+                                <li>Perform cost/benefit anaysis and finally select one option.</li>
+                                <li>Factor in the procurement of qualified, certified and experienced staff and their availablity, including any training needs.</li>
+                            </ol>
+                        </ol>
+                </p1>
+            </div>
+        </div>
+
+        <div class="box box7">
+            <div> <h2 class="h2Style"> 1.6) Below described, including analysis on how my chosen technologies have helped me achieve to create my website.</h2></div>
+            <div class="myscrollbox">
+                <p1>
+                    <ol>
+                        <li>How has trello helped you plan?</li>
+                            <ol>
+                                <li>High level view of Trello project planning showed me tasks that were "To Do", "In Progress" and "Done"</li>
+                                <li>Enabled me to create tasks and sub-tasks</li>
+                                <li>Each task was assinge a resource and due dates</li>
+                            </ol>
+                        <li>How can git and GitHub help with your codes version control?</li>
+                            <ol>
+                                <li>GitHub helped me define a project central repositior for all the project code to be stored.</li>
+                                <li>Git helped me save changes as the code was in the development phase and technical team could collaborate.</li>
+                                <li>Git enabled code revisions and comments to be logged and held and reverted to previous versions, if needed.</li>
+                            </ol>
+                    </ol>
+                </p1>
+            </div>
+        </div>
+
+        <div class="box box8">
+            <div> <h2 class="h2Style"> 1.7) There are legal guidelines and constraints that impact digital projects</h2></div>
+            <div class="myscrollbox">
+                <p>
+                    <ol>
+                        <li>Legal guidelines to Digal projects are as follows:</li>
+                        <ol>
+                            <li class="listindent5"> requires businesses to protect the personal data and privacy of EU citizens for transactions that occur within EU member states</li>
+                            <li class="listindent5"> must define consistent processes for how data is managed and protected, and how breaches are reported.</li>
+                            <li class="listindent5"> ensure that all of those third parties are adhering to GDPR and processing the data accordingly.</li>
+                            <li class="listindent5"> must have policies, procedures, and response structure in place to solve any breaches quickly.</li>
+                        </ol>
+                        <li>Constraints to Digal projects are as follows:</li>
+                        <ol>
+                            <li>Need explicit consent of the person whose data is being stored in a computer system.</li>
+                            <li>Consent to store data may be withdrawn at any time.</li>
+                        </ol>
+                    </ol>
+                </p>
+            </div>
+        </div>
+
     </body>
     <footer class="myfooter">
         <div class="dropdown">
